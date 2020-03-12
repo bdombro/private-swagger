@@ -1,11 +1,8 @@
 // dependent on middleware: cookie-parser, body-parser
-// const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 const jwtSecret = 'uasupersecret';
 const password = 'helloua';
-// const salt = '$2a$10$/FGItquRanGTQfVtl/lHl.'; // from bcrypt.genSaltSync(10)
-// const passwordHash = bcrypt.hashSync(password, salt);
 
 const loginHtml = `
 <!DOCTYPE html>
