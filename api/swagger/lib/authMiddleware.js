@@ -1,8 +1,8 @@
 // dependent on middleware: cookie-parser, body-parser
 const jwt = require('jsonwebtoken');
 
-const jwtSecret = 'uasupersecret';
-const password = 'helloua';
+const jwtSecret = 'supersecret';
+const password = 'hellopwd';
 
 const loginHtml = `
 <!DOCTYPE html>
@@ -26,7 +26,7 @@ module.exports = function (req, res, next) {
     if (req.method === 'POST' && req.body.password === password) {
         res.cookie(
             'auth',
-            jwt.sign({data: {name: "UA User", role: "admin"}}, jwtSecret, { expiresIn: 86400 }),
+            jwt.sign({data: {name: "Some User", role: "admin"}}, jwtSecret, { expiresIn: 86400 }),
             {maxAge: 86400}
         );
         res.write("<script>window.location='/'</script>");

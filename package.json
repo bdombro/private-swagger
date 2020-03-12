@@ -1,11 +1,12 @@
 {
-  "name": "active-omni-swagger",
+  "name": "private-swagger",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "author": "Brian Dombrowski",
   "workspaces": ["api/swagger"],
   "main": "api/swagger/index.js",
+  "license": "ISC",
   "scripts": {
     "start": "node api/swagger/index.js"
   }
