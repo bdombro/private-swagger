@@ -1,11 +1,7 @@
 # Active Omni Swagger
 
-This local swagger browser is mucho-newer, mucho-faster b/c swagger-file is local, and mucho-better than Active-Omni's.
+This is a Zeit now project with a swagger serverless function.
 
-To refresh swagger.json,
-1. Open browser and open inspector
-1. Goto https://omni-uarms.omni.manh.com/order/swagger-ui.html
-1. Right-click network call for api-docs and choose "Copy as cURL"
-1. Paste it into a bash/zsh terminal and add `> swagger.json` or into scripts/refresh.sh
+For more information, see [the function's readme](tree/master/api/swagger/README.md)
 
-To run, `yarn start`
+To run, `yarn start` or `now dev`
