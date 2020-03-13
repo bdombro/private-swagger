@@ -1,9 +1,6 @@
 // dependent on middleware: cookie-parser, body-parser
 const jwt = require('jsonwebtoken');
 
-const jwtSecret = 'supersecret';
-const password = 'hellopwd';
-
 const loginHtml = `
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +19,7 @@ const loginHtml = `
 </html>
 `;
 
-module.exports = function (req, res, next) {
+module.exports = (password, jwtSecret ) => (req, res, next) => {
     if (req.method === 'POST' && req.body.password === password) {
         res.cookie(
             'auth',

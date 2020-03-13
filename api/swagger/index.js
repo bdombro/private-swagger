@@ -8,7 +8,7 @@ const app = express();
 app.use(cookieParser());
 app.use(bodyParser());
 app.use(shrinkRay());
-app.use(authMiddleware);
+app.use(authMiddleware('superpassword', 'supersecret'));
 app.use(express.static(__dirname + "/private")); // include any other files dist directory
 app.listen(3000, () => {
     console.info("Swagger is listening at http://localhost:3000");
