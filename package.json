@@ -7,6 +7,11 @@
   "workspaces": ["api/swagger"],
   "main": "api/swagger/index.js",
   "license": "ISC",
+  "homepage": "https://github.com/bdombro/password-swagger#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdombro/private-swagger.git"
+  },
   "scripts": {
     "start": "node api/swagger/index.js"
   }
