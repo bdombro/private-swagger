@@ -6,16 +6,20 @@
   "author": "Brian Dombrowski",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "ts-node-dev index.ts"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "password-protected": "^1.0.15",
+    "password-protected": "^1.0.20",
     "shrink-ray-current": "^4.1.2",
     "swagger-ui-dist": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.3",
+    "@types/jsonwebtoken": "^8.3.8",
+    "ts-node-dev": "1.0.0-pre.44",
+    "typescript": "*"
   }
 }

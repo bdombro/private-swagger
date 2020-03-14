@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"lib": ["esnext"],
+		"module": "commonjs",
+		"strict": true,
+		"target": "es2015",
+		"resolveJsonModule": true,
+		"esModuleInterop": true
+	},
+	"include": ["api/**/*"]
+}

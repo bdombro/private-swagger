@@ -13,6 +13,6 @@
     "url": "git+https://github.com/bdombro/private-swagger.git"
   },
   "scripts": {
-    "start": "node api/swagger/index.js"
+    "dev": "ts-node-dev api/swagger/index.ts"
   }
 }
