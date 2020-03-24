@@ -11,7 +11,7 @@
   "dependencies": {
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
-    "password-protected": "^1.0.35",
+    "password-protected": "^1.0.36",
     "shrink-ray-current": "^4.1.2",
     "swagger-ui-dist": "^3.25.0"
   },

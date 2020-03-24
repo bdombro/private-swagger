@@ -788,10 +788,10 @@ parseurl@~1.3.3:
   resolved "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
 
-password-protected@^1.0.35:
-  version "1.0.35"
-  resolved "https://registry.yarnpkg.com/password-protected/-/password-protected-1.0.35.tgz#46af03f93bf5a23c041fe347bf2cad9b046e0b68"
-  integrity sha512-rilOOnkf60H4JovCd+69qXoNgXLWkUpKc87DanGtg35w6p2/VyxKY4G31UWrEqOWbswBTSk62+5lI3zD/HQsxw==
+password-protected@^1.0.36:
+  version "1.0.36"
+  resolved "https://registry.yarnpkg.com/password-protected/-/password-protected-1.0.36.tgz#0faaafa2530d60d352b04e31c709e598561c5e38"
+  integrity sha512-xACXe+jxv6kQMknUztu4q/m7WQGoYk7Qfb+5UNPJte0eg3Oh/UH/s/nxcA7NMEJtbVoo81OxRUX/ebrG32Wyww==
   dependencies:
     "@types/bcrypt" "^3.0.0"
     jsonwebtoken "^8.5.1"
